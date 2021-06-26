@@ -6,26 +6,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
-<p align="center">
-  <a href="https://github.com/fabio-mancin/fire-tracker">
-    <img src="public/favicon.svg" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Fire Tracker</h3>
-
-  <p align="center">
-    Map that shows the locations of fires within a specific date range.
-    <br />
-    <a href="https://github.com/fabio-mancin/fire-tracker"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://fabio-mancin-fire-tracker.netlify.app/">View Demo</a>
-    ·
-    <a href="https://github.com/fabio-mancin/fire-tracker/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/fabio-mancin/fire-tracker/issues">Request Feature</a>
-  </p>
-</p>
 
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -80,7 +61,7 @@ This is an example of how to list things you need to use the software and how to
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/fabio-mancin/fire-tracker.git
+   git clone https://github.com/
    ```
 
 2. Install NPM packages
@@ -91,13 +72,13 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-You can test the app on <a href="https://fabio-mancin-fire-tracker.netlify.app/">Netlify</a>.
+You can test the app on
 
 Select a date range to view the fires for those dates retrieved from a mock-ish API.
 
 ## Roadmap
 
-See the [open issues](https://github.com/fabio-mancin/fire-tracker/issues) for a list of proposed features (and known issues).
+See the [open issues] for a list of proposed features (and known issues).
 
 ## Contributing
 
@@ -115,23 +96,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Fabio Mancin: [@Fabio__Mancio](https://twitter.com/Fabio__Mancio) - fabio.mancin90@gmail.com
+Gabriele Alunni Gradini:
 
-Project Link: [https://github.com/fabio-mancin/fire-tracker](https://github.com/fabio-mancin/fire-tracker)
+Project Link: 
 
 ## Acknowledgements
 
 * [Start2Impact](https://www.start2impact.it/)
 
-[contributors-shield]: https://img.shields.io/github/contributors/fabio-mancin/fire-tracker.svg?style=for-the-badge
-[contributors-url]: https://github.com/fabio-mancin/fire-tracker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/fabio-mancin/fire-tracker.svg?style=for-the-badge
-[forks-url]: https://github.com/fabio-mancin/fire-tracker/network/members
-[stars-shield]: https://img.shields.io/github/stars/fabio-mancin/fire-tracker.svg?style=for-the-badge
-[stars-url]: https://github.com/fabio-mancin/fire-tracker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/fabio-mancin/fire-tracker.svg?style=for-the-badge
-[issues-url]: https://github.com/fabio-mancin/fire-tracker/issues
-[license-shield]: https://img.shields.io/github/license/fabio-mancin/fire-tracker.svg?style=for-the-badge
-[license-url]: https://github.com/fabio-mancin/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/fabio-mancin
+
