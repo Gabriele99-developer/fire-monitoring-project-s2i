@@ -28,7 +28,7 @@ export default {
       currentFiresData: [], // values filtered by the date picker
       shownDates: '', // datepicker shows these after loading the app for the first time
       loading: true, // show a spinner if the app is loading data
-      title: 'Fire Tracker'.split(''), // quick way to iterate over the string to add hover effect
+      title: 'Monitoraggio Incendi'.split(''), // quick way to iterate over the string to add hover effect
       message: '' // shows number of fires or errors
     }
   },
@@ -44,7 +44,7 @@ export default {
       // apparently the API returns an unsorted array
       this.firesData = this.currentFiresData = await data.data.sort((a, b) => new Date(a.date) - new Date(b.date))
       this.shownDates = { start: this.currentFiresData[0].date, end: this.currentFiresData[this.currentFiresData.length - 1].date }
-      this.message = `Currently showing ${this.currentFiresData.length} fires.`
+      this.message = `Vengono mostrati ${this.currentFiresData.length} incendi.`
       this.loading = false // hiding the spinner when the API is done loading
     } catch (error) {
       this.message = 'Sorry, there was an error while processing the request.' // just in case
@@ -61,7 +61,7 @@ export default {
           return new Date(e.date) >= newStartDate && new Date(e.date) <= newEndDate // filtering selected the date range
         })
         this.currentFiresData = filteredDates // assign the filtered values to the secondary array
-        this.message = `Currently showing ${this.currentFiresData.length} fires.`
+        this.message = `Vengono mostrati ${this.currentFiresData.length} incendi.`
         this.loading = false // and hiding the loading animation
       } else { // if the user selects an end date that is before the start date (sigh)
         this.message = 'Start date must be before end date.'
