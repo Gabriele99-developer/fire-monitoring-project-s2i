@@ -84,7 +84,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Gabriele Alunni Gradini:
 
-Project Link: 
+Project Link: https://github.com/Gabriele99-developer/fire-monitoring-project-s2i
 
 ## Acknowledgements
 
