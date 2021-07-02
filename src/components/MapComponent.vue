@@ -25,7 +25,7 @@
 import { Icon } from 'leaflet'
 import { LMap, LTileLayer, LMarker, LTooltip } from 'vue2-leaflet'
 import '@/assets/styles/MapComponent.scss'
-// https://vue2-leaflet.netlify.app/quickstart/#marker-icons-are-missing
+
 delete Icon.Default.prototype._getIconUrl
 Icon.Default.mergeOptions({
   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
@@ -48,7 +48,7 @@ export default {
       center: [45.4408, 12.3155],
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution:
-        '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors', // https://www.openstreetmap.org/copyright
+        '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors', 
       currentZoom: 1.2,
       currentCenter: [45.4408, 12.3155],
       mapOptions: {

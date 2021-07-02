@@ -16,7 +16,7 @@
 import '@/assets/styles/DatePicker.scss'
 export default {
   name: 'DatePicker',
-  props: ['defaultDates'], // earliest and latest dates received from the API are used on first load
+  props: ['defaultDates'], 
   data () {
     return {
       startDate: this.defaultDates.start,
